@@ -12,7 +12,9 @@
 	<artifactId>smartkid</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>smartkid</name>
+
 	<description>Demo project develop  for Spring Boot</description>
+r
 
 	<properties>
 		<java.version>1.8</java.version>
