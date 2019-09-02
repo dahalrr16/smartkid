@@ -13,8 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>smartkid</name>
 
-	<description>Demo project develop branch  for Spring Boot</description>
-r
+
+	
+
+
+	<description>Demo project for Spring Boot</description>
+0
 
 	<properties>
 		<java.version>1.8</java.version>
