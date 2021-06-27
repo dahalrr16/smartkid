@@ -13,4 +13,9 @@ public class SmartkidApplicationTests {
 	public void contextLoads() {
 	}
 
+	
+	@Test
+	public void checkAnything() {
+		System.out.println("I am testing something just for fun");
+	}
 }
