@@ -1,16 +1,22 @@
 package com.ewh.smart;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.util.Assert;
 
-@RunWith(SpringRunner.class)
+import com.ewh.smart.model.Kid;
+
 @SpringBootTest
 public class SmartkidApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
-
+	@SuppressWarnings("deprecation")
+	@Test
+	public void helloKid() {
+		System.out.println("Hello Kid just for fun");
+		Kid kid =new Kid();
+		Assert.isNull(kid);
+	}
 }
