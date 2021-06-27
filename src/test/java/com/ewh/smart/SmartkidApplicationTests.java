@@ -1,16 +1,16 @@
 package com.ewh.smart;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class SmartkidApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
-
+	@Test
+	public void helloKid() {
+		System.out.println("Hello Kid just for fun");
+	}
 }
