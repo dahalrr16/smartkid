@@ -1,4 +1,5 @@
 package com.ewh.smart.model;
+//this is class for kid 
 
 public class Kid {
 	private String name;
