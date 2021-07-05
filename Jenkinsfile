@@ -20,6 +20,9 @@ pipeline {
        
 
         stage ('Testing Stage') {
+        
+        script{
+            
         //testing something 
      if(name=='Raj'){
          print('This is jpt testing')
@@ -27,6 +30,9 @@ pipeline {
 if(lastName!='Raj'){
          print('This is jpt testing')
      }
+      }
+      
+      
 //actual steps start here
             steps {
                 withMaven(maven : 'Maven3.8.1') {
