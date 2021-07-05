@@ -2,10 +2,11 @@ import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 import java.util.Date
 //defining the agent
-    //agent any
+    
     def name="Raj"
     def lastName="jpt"
 pipeline {
+agent any
 
     //defining the tools used
     tools {
