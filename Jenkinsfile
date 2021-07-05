@@ -12,6 +12,7 @@ pipeline {
        
 
         stage ('Testing Stage') {
+        println('I am testing test')
 
             steps {
                 withMaven(maven : 'Maven3.8.1') {
