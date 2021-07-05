@@ -21,7 +21,12 @@ pipeline {
 
         stage ('Testing Stage') {
         
-        script{
+     
+      
+      
+//actual steps start here
+            steps {
+               script{
             
         //testing something 
      if(name=='Raj'){
@@ -33,11 +38,10 @@ if(lastName!='Raj'){
       }
       
       
-//actual steps start here
-            steps {
                 withMaven(maven : 'Maven3.8.1') {
                     bat 'mvn compile'
                 }
+                
             }
         }//first stage complete
 
