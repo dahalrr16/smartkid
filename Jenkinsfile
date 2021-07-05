@@ -2,7 +2,7 @@ import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 import java.util.Date
 //defining the agent
-    agent any
+    //agent any
     def name="Raj"
     def lastName="jpt"
 pipeline {
@@ -22,10 +22,10 @@ pipeline {
         stage ('Testing Stage') {
         //testing something 
      if(name=='Raj'){
-         println('This is raj testing')
+         print('This is jpt testing')
      }
 if(lastName!='Raj'){
-         println('This is jpt testing')
+         print('This is jpt testing')
      }
 //actual steps start here
             steps {
