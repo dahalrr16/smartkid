@@ -1,8 +1,12 @@
-pipeline {
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+import java.util.Date
 //defining the agent
     agent any
     def name="Raj"
     def lastName="jpt"
+pipeline {
+
     //defining the tools used
     tools {
         maven 'Maven3.8.1'
